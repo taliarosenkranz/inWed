@@ -1,0 +1,54 @@
+Steps to Execute the Script
+
+Activate the Virtual Environment:
+
+Open a terminal.
+Navigate to your project directory:
+bash
+Copy code
+cd /Users/talia.rosenkranz/PycharmProjects/inWed_bot
+
+Activate the virtual environment:
+bash
+Copy code
+source inWedEnv/bin/activate
+
+Run ngrok (Keep it Open in a Separate Terminal):
+Open a new terminal.
+Run ngrok to expose your local server:
+bash
+Copy code
+ngrok http 5000
+Keep this terminal open and note the ngrok URL (e.g., https://abcd1234.ngrok.io).
+
+Activate Virtual Environment Again (in a New Terminal):
+Open another terminal.
+Navigate to your project directory again:
+bash
+Copy code
+cd /Users/talia.rosenkranz/PycharmProjects/inWed_bot
+
+Activate the virtual environment again:
+bash
+Copy code
+source inWedEnv/bin/activate
+Run the Python Script:
+
+In the terminal with the virtual environment activated, run the Python script:
+bash
+Copy code
+python3 inWed_bot.py
+
+Trigger Message Sending:
+Open your browser and go to:
+perl
+Copy code
+http://127.0.0.1:5000/send-message
+
+Google sheet database link:
+https://docs.google.com/spreadsheets/d/1iYSAq9wq9pKwAMr-Uhs3WZMWDIWi0xtim0skQSw-q6g/edit?gid=0#gid=0
+
+Accounts made:
+- Twilio
+- Ngork
+- applied for whatsapp business. waiting for response
